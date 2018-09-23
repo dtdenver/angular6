@@ -8,8 +8,9 @@ import { AppComponent } from './app.component'
 import { NavMenuComponent } from './nav-menu/nav-menu.component'
 import { HomeComponent } from './home/home.component'
 import { CounterComponent } from './counter/counter.component'
-import { FetchDataComponent } from './fetch-data/fetch-data.component';
+import { FetchDataComponent } from './fetch-data/fetch-data.component'
 import { CurrentWeatherComponent } from './current-weather/current-weather.component'
+import { WeatherService } from './weather/weather.service';
 
 @NgModule({
   declarations: [
@@ -24,13 +25,14 @@ import { CurrentWeatherComponent } from './current-weather/current-weather.compo
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
     HttpClientModule,
     FormsModule,
+    HttpClientModule,
     RouterModule.forRoot([
       { path: '', component: HomeComponent, pathMatch: 'full' },
       { path: 'counter', component: CounterComponent },
       { path: 'fetch-data', component: FetchDataComponent },
     ]),
   ],
-  providers: [],
+  providers: [WeatherService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
