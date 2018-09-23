@@ -10,7 +10,7 @@ import { HomeComponent } from './home/home.component'
 import { CounterComponent } from './counter/counter.component'
 import { FetchDataComponent } from './fetch-data/fetch-data.component'
 import { CurrentWeatherComponent } from './current-weather/current-weather.component'
-import { WeatherService } from './weather/weather.service';
+import { WeatherService } from './weather/weather.service'
 
 @NgModule({
   declarations: [

@@ -1,0 +1,12 @@
+default ea6413c3a6a6cff5c8bb203dff13ad39
+weather 3595caa38fb210016039147abc23089a
+
+Littleton	5429032
+Denver		5520110
+
+http://api.openweathermap.org/data/2.5/forecast?id=5088856&APPID=ea6413c3a6a6cff5c8bb203dff13ad39
+http://api.openweathermap.org/data/2.5/forecast?id=5520110&APPID=ea6413c3a6a6cff5c8bb203dff13ad39
+http://api.openweathermap.org/data/2.5/weather?id=5088856&APPID=ea6413c3a6a6cff5c8bb203dff13ad39
+http://api.openweathermap.org/data/2.5/weather?q=Denver&APPID=ea6413c3a6a6cff5c8bb203dff13ad39
+http://api.openweathermap.org/data/2.5/weather?q=Littleton&APPID=ea6413c3a6a6cff5c8bb203dff13ad39
+http://api.openweathermap.org/data/2.5/weather?q=Littleton,US&APPID=ea6413c3a6a6cff5c8bb203dff13ad39
