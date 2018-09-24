@@ -4,5 +4,7 @@ export interface ICurrentWeather {
   date: number
   image: string
   temperature: number
+  humidity: number
+  windSpeed: number
   description: string
 }
